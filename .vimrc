@@ -4,7 +4,7 @@
 ":NERDTree pt afisare structura fisiere
 " cs"' va schimba ghilimele duble cu simple; cs [{ schimba [ cu {; cs '<q>
 " schimba ' cu <q>; ds" sterge ghilimelele
-" 
+" cand sunt in tree, du CTRL+W+v si dechide fisierul in split screen
 
 call plug#begin('~/.vim/plugged')
 
