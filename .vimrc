@@ -99,6 +99,8 @@ set tabstop=2
 set shiftwidth=2
 set shiftround
 set expandtab
+set smarttab
+set cindent
 
 " Display extra whitespace
 set list listchars=tab:»·,trail:·,nbsp:·
