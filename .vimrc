@@ -1,4 +1,5 @@
 " CTRL / face focus pe cursor
+" CTRL + n ca sa apara nerdtree
 " :FZF sau shortcut ctrl + p, in terminal am fzf sau vim **
 " :Rename nume nou fisier curent
 ":NERDTree pt afisare structura fisiere
@@ -175,3 +176,7 @@ set diffopt+=vertical
 if (&t_Co > 2 || has("gui_running")) && !exists("syntax_on")
   syntax on
 endif
+
+
+"mapare nerdtree pe CTRL + n
+nmap <C-n> :NERDTreeToggle<CR>
