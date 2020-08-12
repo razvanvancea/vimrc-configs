@@ -25,9 +25,9 @@ call plug#end()
 :imap jj <Esc>
 
 "setez git pt vim
-nmap <leader>gh :diffget //3<CR>
-nmap <leader>gu :diffget //2<CR>
-nmap <leader>gs :G<CR>
+nmap gj :diffget //3<CR>
+nmap gf :diffget //2<CR>
+nmap gs :G<CR>
 colorscheme gruvbox
 set background=dark
 
