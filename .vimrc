@@ -10,6 +10,8 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
+Plug 'morhetz/gruvbox'
+Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-eunuch'
@@ -21,6 +23,13 @@ call plug#end()
 
 "mapez ESC la jj
 :imap jj <Esc>
+
+"setez git pt vim
+nmap <leader>gh :diffget //3<CR>
+nmap <leader>gu :diffget //2<CR>
+nmap <leader>gs :G<CR>
+colorscheme gruvbox
+set background=dark
 
 " setup pt FZF
 set rtp+=/usr/local/opt/fzf
