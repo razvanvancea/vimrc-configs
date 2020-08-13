@@ -7,6 +7,28 @@
 " schimba ' cu <q>; ds" sterge ghilimelele
 " cand sunt in tree, du CTRL+W+v si dechide fisierul in split screen
 
+
+" VIM GIT =====
+"
+"gs - git status
+"s face stage per fisier / pe toate daca dau pe Unstaged
+"u face unstage
+"dupa stage, dau Gcommit sau Gcommit -m mesaj
+":Gpush
+"
+"
+"
+"conflicte: gs si ma duc pe fisierul cu conflictul, apasand 'dv'
+"in stanga apare branchul curent, in dreapta branchul venit pe merge
+"ma duc pe <<<Head din fiecare comit si aleg stanga cu 'gf', sau dreapta cu 'gj'
+"pot sterge in mijloc conflictul si il fac manual
+"
+"dupa ce fixez, apas CTRL + w CTRL + O
+"fac stage la modificare + commit
+" ====
+
+
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
