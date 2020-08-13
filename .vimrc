@@ -45,7 +45,8 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 "Vim theme
 colorscheme onedark
 syntax on
-set number
+"set number "normal numbers format
+set rnu "set relative numbers.
 highlight Normal ctermbg=None
 highlight LineNr ctermfg=DarkGrey
 
