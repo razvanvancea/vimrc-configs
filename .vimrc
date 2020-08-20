@@ -27,6 +27,12 @@
 "fac stage la modificare + commit
 " ====
 
+" COPY PASTE ====
+" clipboard copy & paste
+" copy selected part: visually select text(type v or V in normal mode) and type :w !pbcopy
+" copy the whole file :%w !pbcopy
+" paste from the clipboard :r !pbpaste
+" ===
 
 
 call plug#begin('~/.vim/plugged')
