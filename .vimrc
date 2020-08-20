@@ -228,3 +228,13 @@ let g:ycm_min_num_identifier_candidate_chars = 4
 let g:ycm_enable_diagnostic_highlighting = 0" Don't show YCM's preview window [ I find it really annoying ]
 set completeopt-=preview
 let g:ycm_add_preview_to_completeopt = 0
+
+" Tabs
+nnoremap th  :tabfirst<CR>
+nnoremap tk  :tabnext<CR>
+nnoremap tj  :tabprev<CR>
+nnoremap tl  :tablast<CR>
+nnoremap tt  :tabedit<Space>
+nnoremap tm  :tabm<Space>
+nnoremap td  :tabclose<CR>
+nnoremap tn :tabnew<CR>
