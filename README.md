@@ -1,14 +1,12 @@
 ~/.vimrc
 ~/.tern-config
 
+Prerequisite: neovim
 
-neovim instalat, eventual
-
-
-
-Instalare plugins: deschid vim si dau :PlugInstall
+Installing plugins: Open up vim and hit :PlugInstall
 
 
-== instalare pathogen ==
-1. ma asigur ca exista aceste 2 foldere, altfel le creez
-2. copiez continutul din pathogen.vim in pathul ~/.vim/autoload/pathogen.vim
+== Installing Pathogen - Plugin manager ==
+1. Make sure that the following two folders exist
+mkdir -p ~/.vim/autoload ~/.vim/bundle 
+2. Copy pathogen.vim content into ~/.vim/autoload/pathogen.vim
